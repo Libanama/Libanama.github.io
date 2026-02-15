@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libana — Développeuse Web & Web Mobile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        @import url('style.css');
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <a href="#" class="logo">Lib<span>.</span>dev</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#journey">Parcours</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">Disponible pour un stage</div>
+            <h1 class="hero-title">
+                Libana<br>
+                <span class="highlight">Développeuse Web</span>
+            </h1>
+            <p class="hero-subtitle">
+                En reconversion professionnelle, passionnée par le développement web. 
+                Je crée des applications complètes, de la base de données à l'interface utilisateur.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">
+                    <i class="bi bi-rocket-takeoff"></i> Voir mes projets
+                </a>
+                <a href="https://github.com/Libanama" target="_blank" class="btn-secondary">
+                    <i class="bi bi-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="bi bi-chevron-double-down"></i>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="section-header">
+            <div class="section-tag">À propos</div>
+            <h2 class="section-title">Mon histoire</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-visual">
+                <div class="about-card">
+                    <div class="about-emoji">🎵</div>
+                    <h4 style="font-size: 20px; font-weight: 700; color: var(--navy); margin-bottom: 12px;">De la restauration au code</h4>
+                    <p style="font-size: 15px; color: var(--gray); line-height: 1.7;">
+                        Après 7 ans dans la restauration, j'ai décidé de suivre ma passion pour la technologie 
+                        et le développement web. Mon amour pour la culture turque et la musique traditionnelle 
+                        a inspiré mon premier grand projet : SazStore.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Projets réalisés</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Technologies maîtrisées</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">7h</div>
+                            <div class="stat-label">De code par jour</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2026</div>
+                            <div class="stat-label">Certification DWWM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Développeuse en formation DWWM</h3>
+                <p>
+                    Je suis actuellement en formation <span class="accent">Développeur Web et Web Mobile (DWWM)</span> 
+                    avec une soutenance prévue en avril 2026. Mon parcours atypique est une force : 
+                    la rigueur et le sens du service acquis dans la restauration se retrouvent dans ma façon de coder.
+                </p>
+                <p>
+                    Je développe des applications full-stack en utilisant PHP/Symfony côté backend et 
+                    React/JavaScript côté frontend. Je suis passionnée par la création de solutions complètes 
+                    et fonctionnelles.
+                </p>
+                <div class="about-tags">
+                    <span class="about-tag">Autonome</span>
+                    <span class="about-tag">Persévérante</span>
+                    <span class="about-tag">Curieuse</span>
+                    <span class="about-tag">Méthodique</span>
+                    <span class="about-tag">Esprit d'équipe</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-header">
+            <div class="section-tag">Compétences</div>
+            <h2 class="section-title">Mon stack technique</h2>
+            <p class="section-desc">Les technologies que j'utilise au quotidien pour créer des applications web complètes.</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon backend"><i class="bi bi-code-slash"></i></div>
+                <h3>Backend</h3>
+                <ul class="skill-list">
+                    <li>PHP 8</li>
+                    <li>Symfony 6</li>
+                    <li>Doctrine ORM</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon frontend"><i class="bi bi-palette"></i></div>
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Bootstrap 5</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon database"><i class="bi bi-database"></i></div>
+                <h3>Base de données</h3>
+                <ul class="skill-list">
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>phpMyAdmin</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon tools"><i class="bi bi-tools"></i></div>
+                <h3>Outils</h3>
+                <ul class="skill-list">
+                    <li>Git / GitHub</li>
+                    <li>VS Code</li>
+                    <li>Laragon</li>
+                    <li>Composer</li>
+                    <li>Docker (initiation)</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon mobile"><i class="bi bi-phone"></i></div>
+                <h3>Mobile</h3>
+                <ul class="skill-list">
+                    <li>React Native</li>
+                    <li>Expo</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon other"><i class="bi bi-lightning"></i></div>
+                <h3>Intégrations</h3>
+                <ul class="skill-list">
+                    <li>Stripe API</li>
+                    <li>REST API</li>
+                    <li>Twig</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-header">
+            <div class="section-tag">Projets</div>
+            <h2 class="section-title">Mes réalisations</h2>
+            <p class="section-desc">Des projets concrets qui démontrent mes compétences en développement full-stack.</p>
+        </div>
+        <div class="projects-grid">
+            <!-- SazStore -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-badge badge-symfony">Symfony 6</span>
+                    <h3>SazStore</h3>
+                    <p>Plateforme e-commerce complète dédiée aux instruments de musique traditionnels turcs (Saz Baglama). Gestion complète du parcours d'achat.</p>
+                </div>
+                <div class="project-features">
+                    <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Authentification et rôles (Admin/Client)</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Panier avec sessions Symfony et gestion du stock</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Paiement sécurisé via Stripe</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Dashboard admin avec statistiques en temps réel</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Design responsive (Bootstrap 5)</span>
+                    </div>
+                </div>
+                <div class="project-tech">
+                    <span class="tech-tag">PHP 8</span>
+                    <span class="tech-tag">Symfony 6</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Doctrine ORM</span>
+                    <span class="tech-tag">Stripe</span>
+                    <span class="tech-tag">Bootstrap 5</span>
+                    <span class="tech-tag">Twig</span>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/Libanama/sazstore" target="_blank" class="project-link">
+                        <i class="bi bi-github"></i> Voir le code <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Blog React -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-badge badge-react">React Native</span>
+                    <h3>SnapPic</h3>
+                    <p>Application mobile de photographie développée avec React Native et Expo. Permet de prendre des photos, les stocker dans une galerie et les gérer facilement.</p>
+                </div>
+                <div class="project-features">
+                    <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Caméra fonctionnelle (avant/arrière) avec filtres</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Authentification par email avec validation</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Gestion d'état avec Redux Toolkit
+</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Navigation avec Bottom Tab Navigator
+
+</span>
+                    </div>
+                </div>
+                <div class="project-tech">
+                    <span class="tech-tag">React Native</span>
+                    <span class="tech-tag">Expo</span>
+                    <span class="tech-tag">Redux Toolkit</span>
+                    <span class="tech-tag">React Navigation</span>
+                    <span class="tech-tag">Expo Camera</span>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/Libanama/snapp-pic" target="_blank" class="project-link">
+                        <i class="bi bi-github"></i> Voir le code <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="journey">
+        <div class="section-header">
+            <div class="section-tag">Parcours</div>
+            <h2 class="section-title">Mon chemin</h2>
+            <p class="section-desc">De la restauration au développement web, un parcours de reconversion motivé par la passion.</p>
+        </div>
+        <div class="journey-timeline">
+            <div class="journey-item">
+                <div class="journey-dot current">🎯</div>
+                <div class="journey-content">
+                    <div class="journey-date">À partir de février 2026</div>
+                    <h4>Stage développement web</h4>
+                    <p>Recherche active d'un stage pour mettre en pratique mes compétences et obtenir ma certification DWWM.</p>
+                </div>
+            </div>
+            <div class="journey-item">
+                <div class="journey-dot study">💻</div>
+                <div class="journey-content">
+                    <div class="journey-date">Septembre 2025 - Avril 2026</div>
+                    <h4>Formation DWWM</h4>
+                    <p>Développeur Web et Web Mobile — Formation intensive couvrant PHP, Symfony, JavaScript, React, bases de données et méthodologies de projet.</p>
+                </div>
+            </div>
+            <div class="journey-item">
+                <div class="journey-dot past">🍽️</div>
+                <div class="journey-content">
+                    <div class="journey-date">2018 - 2025</div>
+                    <h4>Expérience en restauration (7 ans)</h4>
+                    <p>Gestion d'équipe, service client, rigueur et organisation — des compétences transférables essentielles pour le développement web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-header">
+            <div class="section-tag">Contact</div>
+            <h2 class="section-title">Travaillons ensemble</h2>
+            <p class="section-desc">Je suis disponible pour un stage de 2 mois ou plus partir du 23 février 2026. N'hésitez pas à me contacter !</p>
+        </div>
+        <div class="contact-links">
+            <a href="https://github.com/Libanama" target="_blank" class="contact-card">
+                <i class="bi bi-github"></i>
+                <span>GitHub</span>
+            </a>
+           
+            </a>
+            <a href="mailto:libana.dev@gmail.com" class="contact-card">
+                <i class="bi bi-envelope-fill"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Libana — Développeuse Web & Web Mobile</p>
+    </footer>
+
+    <script>
+        // Navbar scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            nav.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Hamburger menu
+        document.getElementById('hamburger').addEventListener('click', () => {
+            document.getElementById('navLinks').classList.toggle('active');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+
+        // Scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.skill-card, .project-card, .journey-item, .about-card, .about-text').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
